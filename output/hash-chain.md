@@ -1,6 +1,6 @@
 # Hash chain of the portal
 
-`chain_hash` = `7239f977c875ea7ca471391bb8d88cf9a1bc90fbb5e43666f3225f4a44e77172`
+`chain_hash` = `fbefe5325282338a8565b346771616600f992edd48437119a05f17e997ba51cb`
 
 - `404.html` `831be042b8a4e1c1`
 - `CNAME` `ea5b707411a3f6d5`
@@ -8,9 +8,9 @@
 - `assets/emblema-gemini.png` `254298fbdc29d505`
 - `assets/emblema.svg` `e2fac561ec46f9ac`
 - `assets/portal.css` `93436e24db7424c1`
-- `dossies/001-raio-x-do-brasil/index.html` `fc5985e696a6c642`
+- `dossies/001-raio-x-do-brasil/index.html` `ae8995e8b311915b`
 - `index.html` `250d55cf011964df`
-- `make_provenance.py` `01a60be75484062e`
+- `make_provenance.py` `eeab079da4e76964`
 - `robots.txt` `ce7cce41e18b13ad`
 - `run_all.py` `ca70e4e5d76fe605`
 - `sitemap.xml` `ff5cfb5e983b9c65`

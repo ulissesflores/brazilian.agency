@@ -19,7 +19,7 @@ FONTE = {
     "repositorio": "https://github.com/ulissesflores/brazil-governments-factcheck",
     "doi": "10.5281/zenodo.23604103",
     "pagina_fonte": "output/raio-x.html",
-    "sha256_fonte": "89888d1a67e61d38036a7a10965a86646392fdd7811feb1cb5dfa1fce18932bd",
+    "sha256_fonte": "a5b5e9ebf77a32b52663226c6b7765006b8254c4fa2a69118352662e74b6440b",
 }
 
 
