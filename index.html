@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Source Brazilian Intelligence Agency</title>
+<meta name="description" content="Inteligência de fontes abertas sobre política e dados do Brasil: dossiês com dado bruto, cadeia de hash, pré-registro e literatura revisada por pares. Projeto independente, sem vínculo com governo ou órgão público.">
+<link rel="icon" href="assets/emblema.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/portal.css">
+</head>
+<body>
+<header class="topo">
+  <a class="marca" href="/">
+    <img src="assets/emblema.svg" alt="Emblema: coruja sobre o Cruzeiro do Sul, cercada por um anel de elos" width="56" height="56">
+    <span><strong>Open Source Brazilian Intelligence Agency</strong><small>inteligência de fontes abertas · política e dados do Brasil</small></span>
+  </a>
+  <nav aria-label="Seções">
+    <a href="#dossies">Dossiês</a><a href="#dados">Dados</a><a href="#estudos">Estudos</a><a href="#metodo">Método</a><a href="#sobre">Sobre</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="carimbo">FONTES ABERTAS · DADOS SELADOS · NENHUM VEREDITO</p>
+    <h1>O trabalho de um país, em dados que qualquer pessoa pode conferir.</h1>
+    <p class="lede">Dossiês sobre a política e a economia do Brasil feitos só com fonte pública, baixada com cadeia de hash, regra escrita antes do resultado e literatura revisada por pares. Sem nota de mérito, sem estimativa, sem opinião escondida em gráfico.</p>
+    <p class="aviso">Projeto independente de jornalismo de dados. Não tem vínculo com a Agência Brasileira de Inteligência, com qualquer governo ou órgão público, e não guarda nada que não esteja publicado.</p>
+    <div class="cta">
+      <a class="btn" href="dossies/001-raio-x-do-brasil/">Abrir o dossiê 001 · Raio-X do Brasil por governo</a>
+      <a class="btn sec" href="https://doi.org/10.5281/zenodo.23604103" rel="noopener">Repositório com DOI</a>
+    </div>
+  </section>
+
+  <section id="dossies" class="bloco">
+    <h2><span class="num">01</span> Dossiês</h2>
+    <article class="ficha">
+      <div class="cab"><span class="id">DOSSIÊ 001</span><span class="st">ABERTO · v1.0.0 · 2026-10-23</span></div>
+      <h3><a href="dossies/001-raio-x-do-brasil/">Raio-X do Brasil por governo</a></h3>
+      <p>Um infográfico viral imprime 57 números sobre oito governos. Cada um foi conferido contra a fonte primária sob uma regra fixada em código. Depois, o que ele deixou de fora: 101 séries com cadeia de hash desde 1964 em 19 domínios, um índice pré-registrado de condições de vida, a leitura por mandato em três camadas que não se misturam, a literatura Q1 sobre 23 episódios e a dívida externa nos dois conceitos do Banco Central.</p>
+      <ul class="meta">
+        <li>Fontes: IBGE, BCB, Tesouro, INEP, DATASUS, INPE, Banco Mundial, V-Dem, OpenAlex, Crossref</li>
+        <li>Selo SHA-256 do repositório e 152 testes que pinam cada número publicado</li>
+        <li>Pré-registro selado antes do cálculo, 11 emendas datadas, nunca reescritas</li>
+        <li>DOI <a href="https://doi.org/10.5281/zenodo.23604103" rel="noopener">10.5281/zenodo.23604103</a></li>
+      </ul>
+    </article>
+    <p class="nota">Dossiês seguintes entram aqui com o mesmo contrato: dado bruto hasheado, método declarado antes do resultado, tudo reproduzível com um comando.</p>
+  </section>
+
+  <section id="dados" class="bloco">
+    <h2><span class="num">02</span> Dados</h2>
+    <p>Toda coleta é registrada numa cadeia de hash no momento do download: URL, data, bytes e SHA-256, linha a linha, cada linha presa à anterior. Documentos grandes de terceiros ficam só como hash e URL; séries derivadas e scripts ficam no repositório e qualquer pessoa reconstrói tudo com <code>python3 run_all.py</code>.</p>
+    <ul class="lista">
+      <li><a href="https://github.com/ulissesflores/brazil-governments-factcheck" rel="noopener">Repositório público</a> (Apache-2.0 para o código, CC BY 4.0 para dados derivados e textos)</li>
+      <li><a href="https://github.com/ulissesflores/brazil-governments-factcheck/tree/main/data/raw" rel="noopener">Coleções brutas e seus manifestos</a></li>
+      <li><a href="https://github.com/ulissesflores/brazil-governments-factcheck/blob/main/REPRODUCIBILITY.md" rel="noopener">O que se reproduz sem rede e o que fica congelado</a></li>
+    </ul>
+  </section>
+
+  <section id="estudos" class="bloco">
+    <h2><span class="num">03</span> Estudos</h2>
+    <p>A única camada que fala de causa fala pela boca dos autores: artigos revisados por pares, em periódico do primeiro quartil, sobre o Brasil, com desenho de identificação nomeado no resumo, achados por um protocolo de busca selado antes de buscar. Tudo que a busca devolveu está listado com o motivo da exclusão.</p>
+    <p><a href="dossies/001-raio-x-do-brasil/#estudos">Ver a aba Estudos do dossiê 001</a> · 4 rodadas publicadas, 38 estudos, 23 episódios.</p>
+  </section>
+
+  <section id="metodo" class="bloco">
+    <h2><span class="num">04</span> Método</h2>
+    <ol class="lista">
+      <li><strong>Fonte primária ou nada.</strong> Literatura cinzenta não sustenta regra; só artigo com DOI e quartil 1.</li>
+      <li><strong>Regra antes do resultado.</strong> Pré-registro selado na cadeia; mudança é emenda datada, nunca reescrita.</li>
+      <li><strong>Uma base por célula.</strong> Séries com quebra de método nunca são emendadas; cada base é uma linha com o próprio nome.</li>
+      <li><strong>Nada estimado.</strong> Sem imputação, sem interpolação, sem extrapolação. Ausência é declarada.</li>
+      <li><strong>Sem veredito de mérito.</strong> Descrevemos condições do país; a causa fica com a literatura e com o leitor.</li>
+    </ol>
+    <p><a href="https://github.com/ulissesflores/brazil-governments-factcheck/blob/main/docs/pt-BR/METHODOLOGY.md" rel="noopener">Metodologia completa</a>, em português, inglês, espanhol, italiano e hebraico.</p>
+  </section>
+
+  <section id="sobre" class="bloco">
+    <h2><span class="num">05</span> Sobre</h2>
+    <p>Projeto de <a href="https://ulissesflores.com" rel="noopener">Carlos Ulisses Flores</a> (ORCID <a href="https://orcid.org/0000-0002-6034-7765" rel="noopener">0000-0002-6034-7765</a>). "Open source" aqui tem o sentido técnico: inteligência de fontes abertas, código e dados abertos. Não somos agência de governo, não temos informação sigilosa e não recebemos dado que não possa ser publicado com a fonte.</p>
+    <p class="nota">O emblema é uma coruja-buraqueira sobre o Cruzeiro do Sul, dentro de um anel de elos: a cadeia de hash. Desenhado em código, sem relação com símbolos de qualquer órgão público.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Open Source Brazilian Intelligence Agency · brazilian.agency · projeto independente, sem vínculo com governo ou órgão público · conteúdo CC BY 4.0, código Apache-2.0</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Emblema: coruja sobre o Cruzeiro do Sul, dentro de um anel de elos">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#1b2a3b"/><stop offset="1" stop-color="#0b0f14"/></radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#g)" stroke="#f2b632" stroke-width="3"/>
+  <!-- anel de elos: a cadeia de hash -->
+  <g fill="none" stroke="#f2b632" stroke-width="2.2" stroke-dasharray="9 5" opacity=".9">
+    <circle cx="100" cy="100" r="84"/>
+  </g>
+  <!-- Cruzeiro do Sul -->
+  <g fill="#e6edf3">
+    <circle cx="100" cy="46" r="3.2"/>
+    <circle cx="100" cy="150" r="3.8"/>
+    <circle cx="74" cy="102" r="3"/>
+    <circle cx="128" cy="96" r="2.6"/>
+    <circle cx="118" cy="118" r="1.8"/>
+  </g>
+  <!-- coruja-buraqueira -->
+  <g stroke="#f2b632" stroke-width="2.4" fill="#121923" stroke-linejoin="round">
+    <path d="M70 94 L80 72 L92 84 Q100 80 108 84 L120 72 L130 94 Q134 122 100 136 Q66 122 70 94 Z"/>
+    <path d="M78 136 Q100 150 122 136 L118 128 Q100 138 82 128 Z"/>
+  </g>
+  <g fill="#f2b632">
+    <circle cx="88" cy="100" r="7.5"/><circle cx="112" cy="100" r="7.5"/>
+  </g>
+  <g fill="#0b0f14">
+    <circle cx="88" cy="100" r="3.4"/><circle cx="112" cy="100" r="3.4"/>
+  </g>
+  <path d="M96 106 L100 114 L104 106 Z" fill="#f2b632"/>
+  <!-- legenda -->
+  <path id="arco" d="M30 100 A70 70 0 0 1 170 100" fill="none"/>
+  <text font-family="IBM Plex Mono, Menlo, monospace" font-size="9.5" letter-spacing="2" fill="#e6edf3"><textPath href="#arco" startOffset="50%" text-anchor="middle">OPEN SOURCE INTELLIGENCE</textPath></text>
+  <path id="arco2" d="M38 118 A68 68 0 0 0 162 118" fill="none"/>
+  <text font-family="IBM Plex Mono, Menlo, monospace" font-size="8" letter-spacing="2" fill="#9aa7b4"><textPath href="#arco2" startOffset="50%" text-anchor="middle">FONTES ABERTAS · DADOS SELADOS</textPath></text>
+</svg>
