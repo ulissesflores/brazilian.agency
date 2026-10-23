@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Cite the dossier you use (each has its own DOI); cite the portal only for the site itself."
+title: "Open Source Brazilian Intelligence Agency: portal of open-source intelligence on Brazilian politics and public data"
+abstract: >-
+  Static portal that publishes independent open-source-intelligence dossiers on Brazilian politics
+  and public data. Each dossier lives in its own repository with a hash chain, a sealed
+  pre-registration, tests and a DOI; the portal keeps a sealed copy of each published page and
+  records its hash and origin. Independent project with no link to any government body.
+authors:
+  - family-names: Flores
+    given-names: Carlos Ulisses
+    orcid: "https://orcid.org/0000-0002-6034-7765"
+    website: "https://ulissesflores.com"
+    affiliation: "Codex Hash Research Laboratory"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/ulissesflores/brazilian.agency"
+url: "https://brazilian.agency"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - brazil
+  - osint
+  - open-data
+  - fact-checking
+  - reproducibility

@@ -1,0 +1,11 @@
+{
+  "title": "Open Source Brazilian Intelligence Agency: portal",
+  "upload_type": "software",
+  "version": "0.1.0",
+  "access_right": "closed",
+  "notes": "No DOI without the operator's explicit authorization. The portal is not a citable object; each dossier has its own DOI (dossier 001: 10.5281/zenodo.23604103).",
+  "license": "cc-by-4.0",
+  "creators": [{"name": "Flores, Carlos Ulisses", "orcid": "0000-0002-6034-7765", "affiliation": "Codex Hash Research Laboratory"}],
+  "keywords": ["brazil", "osint", "open-data"],
+  "language": "por"
+}

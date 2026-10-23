@@ -1,0 +1,9 @@
+Open Source Brazilian Intelligence Agency (portal brazilian.agency)
+Copyright 2026 Carlos Ulisses Flores
+
+Licences:
+- Code (make_provenance.py, run_all.py, tests/): Apache-2.0 (LICENSES/Apache-2.0.txt; copy in LICENSE).
+- Texts, the emblem (assets/) and derived data: CC BY 4.0 (LICENSES/CC-BY-4.0.txt).
+- Dossier pages under dossies/ are copies of pages published by their own repositories and keep the licence of the origin (dossier 001: Apache-2.0 code, CC BY 4.0 content, DOI 10.5281/zenodo.23604103).
+
+Independence. This is an independent open-source-intelligence project. It has no link to the Agência Brasileira de Inteligência, to any government or public body, and reproduces no official seal, name or symbol. The emblem (an owl over the Southern Cross inside a ring of links) was designed for this project.

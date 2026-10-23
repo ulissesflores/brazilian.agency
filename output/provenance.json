@@ -1,0 +1,69 @@
+{
+ "chain_hash": "7239f977c875ea7ca471391bb8d88cf9a1bc90fbb5e43666f3225f4a44e77172",
+ "files": [
+  {
+   "path": "404.html",
+   "sha256": "831be042b8a4e1c1f2615254356893dc1dd6e6bb513e31d87e1567ec7a2b9af4"
+  },
+  {
+   "path": "CNAME",
+   "sha256": "ea5b707411a3f6d563439fff65db8cd63ff94ffca9935f69b7c3485426d4e99d"
+  },
+  {
+   "path": "assets/emblema-gemini-512.png",
+   "sha256": "549214e023a9539eca0bcc2543fa1f0e20b25af3974a6bfd47f1bc1453f49e97"
+  },
+  {
+   "path": "assets/emblema-gemini.png",
+   "sha256": "254298fbdc29d505493094203527b2a0579e7185d9f231c0fcdee7c2501b4072"
+  },
+  {
+   "path": "assets/emblema.svg",
+   "sha256": "e2fac561ec46f9ac458a5dbff7fc0e3a7b040239c851258cffd5d7dfee7181bc"
+  },
+  {
+   "path": "assets/portal.css",
+   "sha256": "93436e24db7424c130765cd3bfe74588f3475b6036f652d2316aacee11bb3856"
+  },
+  {
+   "path": "dossies/001-raio-x-do-brasil/index.html",
+   "sha256": "fc5985e696a6c6422303d92cb963b11f33c212b2cc19677c68b30c4133949086"
+  },
+  {
+   "path": "index.html",
+   "sha256": "250d55cf011964df23a5b5d7c7f92532e6971d9c4b8b7599e312d502c0f11616"
+  },
+  {
+   "path": "make_provenance.py",
+   "sha256": "01a60be75484062e744da61962e74470377e4f4bf0f94d5e29ca42ad8972340b"
+  },
+  {
+   "path": "robots.txt",
+   "sha256": "ce7cce41e18b13ad291c95c4fdcef078e206c6db9fc4252a27576bb1bdb6505b"
+  },
+  {
+   "path": "run_all.py",
+   "sha256": "ca70e4e5d76fe6055a0b24b33867a258c916b4e89b75ba83a3e79023a01ec74a"
+  },
+  {
+   "path": "sitemap.xml",
+   "sha256": "ff5cfb5e983b9c659cb4dd13df0e47de113c16c78ca49a79f5c2b32f3aa70553"
+  },
+  {
+   "path": "sync_dossie.py",
+   "sha256": "eee74faff937b0f520a260da07d578a5597cb03b4381e62fd5215d23fe781908"
+  },
+  {
+   "path": "tests/test_portal.py",
+   "sha256": "1ff3f52d9fc1bb9e98359218174234c1d1af47e7cc60a3dcb3e487dd5e0f341e"
+  }
+ ],
+ "dossie_001": {
+  "sha256": "fc5985e696a6c6422303d92cb963b11f33c212b2cc19677c68b30c4133949086",
+  "repositorio": "https://github.com/ulissesflores/brazil-governments-factcheck",
+  "doi": "10.5281/zenodo.23604103",
+  "pagina_fonte": "output/raio-x.html",
+  "sha256_fonte": "89888d1a67e61d38036a7a10965a86646392fdd7811feb1cb5dfa1fce18932bd"
+ },
+ "rule": "h_0 = sha256(''); h_i = sha256(h_{i-1} + path_i + sha256(file_i)); path order"
+}

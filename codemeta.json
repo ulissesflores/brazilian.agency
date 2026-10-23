@@ -1,0 +1,15 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "brazilian-agency",
+  "description": "Static portal of the Open Source Brazilian Intelligence Agency: independent open-source-intelligence dossiers on Brazilian politics and public data, each a sealed copy of a page published with its own hash chain and DOI.",
+  "version": "0.1.0",
+  "license": ["https://spdx.org/licenses/Apache-2.0", "https://spdx.org/licenses/CC-BY-4.0"],
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python >= 3.11",
+  "codeRepository": "https://github.com/ulissesflores/brazilian.agency",
+  "url": "https://brazilian.agency",
+  "author": [{"@type": "Person", "@id": "https://orcid.org/0000-0002-6034-7765", "givenName": "Carlos Ulisses", "familyName": "Flores", "url": "https://ulissesflores.com"}],
+  "keywords": ["brazil", "osint", "open-data", "fact-checking", "reproducibility"],
+  "relatedLink": ["https://doi.org/10.5281/zenodo.23604103"]
+}
