@@ -21,6 +21,7 @@ convention = "numpy"
 
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["D100", "D102", "D103"]
+"sync_dossie.py" = ["E501"]  # page metadata strings are data, one per line
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
